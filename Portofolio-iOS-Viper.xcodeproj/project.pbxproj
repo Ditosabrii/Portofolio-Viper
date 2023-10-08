@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22E59CF6E9F4577A4AEA4C26 /* Pods_Portofolio_iOS_Viper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3543B4DE6DA310E48F4CC7A /* Pods_Portofolio_iOS_Viper.framework */; };
 		49BD7AC32AD2AAFC00C89001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7AC22AD2AAFC00C89001 /* AppDelegate.swift */; };
 		49BD7AC52AD2AAFC00C89001 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7AC42AD2AAFC00C89001 /* SceneDelegate.swift */; };
 		49BD7AC72AD2AAFC00C89001 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7AC62AD2AAFC00C89001 /* ViewController.swift */; };
-		49BD7ACA2AD2AAFC00C89001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BD7AC82AD2AAFC00C89001 /* Main.storyboard */; };
 		49BD7ACC2AD2AAFE00C89001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BD7ACB2AD2AAFE00C89001 /* Assets.xcassets */; };
-		49BD7ACF2AD2AAFE00C89001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BD7ACD2AD2AAFE00C89001 /* LaunchScreen.storyboard */; };
 		49BD7ADA2AD2AAFE00C89001 /* Portofolio_iOS_ViperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7AD92AD2AAFE00C89001 /* Portofolio_iOS_ViperTests.swift */; };
 		49BD7AE42AD2AAFF00C89001 /* Portofolio_iOS_ViperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7AE32AD2AAFF00C89001 /* Portofolio_iOS_ViperUITests.swift */; };
 		49BD7AE62AD2AAFF00C89001 /* Portofolio_iOS_ViperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7AE52AD2AAFF00C89001 /* Portofolio_iOS_ViperUITestsLaunchTests.swift */; };
+		49BD7AF62AD2AD6300C89001 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7AF52AD2AD6300C89001 /* TabBarController.swift */; };
+		49BD7AF82AD2AD8600C89001 /* CustomUINavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7AF72AD2AD8600C89001 /* CustomUINavigationViewController.swift */; };
+		49BD7AFB2AD2ADD100C89001 /* DonutChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7AFA2AD2ADD100C89001 /* DonutChartViewController.swift */; };
+		49BD7AFD2AD2AE2800C89001 /* DonuChartIntractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7AFC2AD2AE2800C89001 /* DonuChartIntractor.swift */; };
+		49BD7AFF2AD2AE4300C89001 /* DonuChartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7AFE2AD2AE4300C89001 /* DonuChartPresenter.swift */; };
+		49BD7B012AD2AE7700C89001 /* DonuChartEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7B002AD2AE7700C89001 /* DonuChartEntity.swift */; };
+		49BD7B032AD2AE9A00C89001 /* Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = 49BD7B022AD2AE9A00C89001 /* Chart.json */; };
+		49BD7B072AD2AF1200C89001 /* DonuChartRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7B062AD2AF1200C89001 /* DonuChartRouter.swift */; };
+		49BD7B092AD2AF4700C89001 /* DonuChartProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7B082AD2AF4700C89001 /* DonuChartProtocol.swift */; };
+		49BD7B0C2AD2AF9600C89001 /* DonuChartDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7B0B2AD2AF9600C89001 /* DonuChartDetailViewController.swift */; };
+		49BD7B102AD2B06600C89001 /* DonuChartDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7B0F2AD2B06600C89001 /* DonuChartDetailsCell.swift */; };
+		49BD7B122AD2B09000C89001 /* DonuChartDetailIntractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7B112AD2B09000C89001 /* DonuChartDetailIntractor.swift */; };
+		49BD7B142AD2B0A900C89001 /* DonuChartDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7B132AD2B0A900C89001 /* DonuChartDetailsPresenter.swift */; };
+		49BD7B162AD2B0EC00C89001 /* DonuChartDetailsRouters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7B152AD2B0EC00C89001 /* DonuChartDetailsRouters.swift */; };
+		49BD7B182AD2B11300C89001 /* DonuChartDetailsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7B172AD2B11300C89001 /* DonuChartDetailsProtocols.swift */; };
+		49BD7B1B2AD2B21700C89001 /* DateFormatEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7B1A2AD2B21700C89001 /* DateFormatEnum.swift */; };
+		49BD7B1D2AD2B22800C89001 /* String+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7B1C2AD2B22800C89001 /* String+EXT.swift */; };
+		49BD7B202AD2B3B900C89001 /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7B1F2AD2B3B900C89001 /* LineChartViewController.swift */; };
+		49BD7B222AD2B42800C89001 /* LineChartIntractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7B212AD2B42800C89001 /* LineChartIntractor.swift */; };
+		49BD7B242AD2B44A00C89001 /* LineChartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7B232AD2B44A00C89001 /* LineChartPresenter.swift */; };
+		49BD7B262AD2B45F00C89001 /* LineChartRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7B252AD2B45F00C89001 /* LineChartRouter.swift */; };
+		49BD7B282AD2B47D00C89001 /* LineChartProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD7B272AD2B47D00C89001 /* LineChartProtocols.swift */; };
+		6FA94A840683B271FDC178DF /* Pods_Portofolio_iOS_Viper_Portofolio_iOS_ViperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3411EF83C0769A1ED924669F /* Pods_Portofolio_iOS_Viper_Portofolio_iOS_ViperUITests.framework */; };
+		A90E079BE873A3479B9FE80D /* Pods_Portofolio_iOS_ViperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2270E57E39982F743D38248 /* Pods_Portofolio_iOS_ViperTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +59,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07322785811A2298303D514E /* Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests.release.xcconfig"; path = "Target Support Files/Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests/Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		21F70EC3E37AB8C32B70526E /* Pods-Portofolio-iOS-ViperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Portofolio-iOS-ViperTests.release.xcconfig"; path = "Target Support Files/Pods-Portofolio-iOS-ViperTests/Pods-Portofolio-iOS-ViperTests.release.xcconfig"; sourceTree = "<group>"; };
+		3411EF83C0769A1ED924669F /* Pods_Portofolio_iOS_Viper_Portofolio_iOS_ViperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Portofolio_iOS_Viper_Portofolio_iOS_ViperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFE3CB3EC3A445C5178834B /* Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests.debug.xcconfig"; path = "Target Support Files/Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests/Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		49BD7ABF2AD2AAFC00C89001 /* Portofolio-iOS-Viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Portofolio-iOS-Viper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BD7AC22AD2AAFC00C89001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49BD7AC42AD2AAFC00C89001 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		49BD7AC62AD2AAFC00C89001 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		49BD7AC92AD2AAFC00C89001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49BD7ACB2AD2AAFE00C89001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		49BD7ACE2AD2AAFE00C89001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49BD7AD02AD2AAFE00C89001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49BD7AD52AD2AAFE00C89001 /* Portofolio-iOS-ViperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Portofolio-iOS-ViperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BD7AD92AD2AAFE00C89001 /* Portofolio_iOS_ViperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portofolio_iOS_ViperTests.swift; sourceTree = "<group>"; };
 		49BD7ADF2AD2AAFF00C89001 /* Portofolio-iOS-ViperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Portofolio-iOS-ViperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BD7AE32AD2AAFF00C89001 /* Portofolio_iOS_ViperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portofolio_iOS_ViperUITests.swift; sourceTree = "<group>"; };
 		49BD7AE52AD2AAFF00C89001 /* Portofolio_iOS_ViperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portofolio_iOS_ViperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49BD7AF52AD2AD6300C89001 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		49BD7AF72AD2AD8600C89001 /* CustomUINavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUINavigationViewController.swift; sourceTree = "<group>"; };
+		49BD7AFA2AD2ADD100C89001 /* DonutChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChartViewController.swift; sourceTree = "<group>"; };
+		49BD7AFC2AD2AE2800C89001 /* DonuChartIntractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonuChartIntractor.swift; sourceTree = "<group>"; };
+		49BD7AFE2AD2AE4300C89001 /* DonuChartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonuChartPresenter.swift; sourceTree = "<group>"; };
+		49BD7B002AD2AE7700C89001 /* DonuChartEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonuChartEntity.swift; sourceTree = "<group>"; };
+		49BD7B022AD2AE9A00C89001 /* Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Chart.json; sourceTree = "<group>"; };
+		49BD7B062AD2AF1200C89001 /* DonuChartRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonuChartRouter.swift; sourceTree = "<group>"; };
+		49BD7B082AD2AF4700C89001 /* DonuChartProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonuChartProtocol.swift; sourceTree = "<group>"; };
+		49BD7B0B2AD2AF9600C89001 /* DonuChartDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonuChartDetailViewController.swift; sourceTree = "<group>"; };
+		49BD7B0F2AD2B06600C89001 /* DonuChartDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonuChartDetailsCell.swift; sourceTree = "<group>"; };
+		49BD7B112AD2B09000C89001 /* DonuChartDetailIntractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonuChartDetailIntractor.swift; sourceTree = "<group>"; };
+		49BD7B132AD2B0A900C89001 /* DonuChartDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonuChartDetailsPresenter.swift; sourceTree = "<group>"; };
+		49BD7B152AD2B0EC00C89001 /* DonuChartDetailsRouters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonuChartDetailsRouters.swift; sourceTree = "<group>"; };
+		49BD7B172AD2B11300C89001 /* DonuChartDetailsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonuChartDetailsProtocols.swift; sourceTree = "<group>"; };
+		49BD7B1A2AD2B21700C89001 /* DateFormatEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatEnum.swift; sourceTree = "<group>"; };
+		49BD7B1C2AD2B22800C89001 /* String+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+EXT.swift"; sourceTree = "<group>"; };
+		49BD7B1F2AD2B3B900C89001 /* LineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
+		49BD7B212AD2B42800C89001 /* LineChartIntractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartIntractor.swift; sourceTree = "<group>"; };
+		49BD7B232AD2B44A00C89001 /* LineChartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartPresenter.swift; sourceTree = "<group>"; };
+		49BD7B252AD2B45F00C89001 /* LineChartRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartRouter.swift; sourceTree = "<group>"; };
+		49BD7B272AD2B47D00C89001 /* LineChartProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartProtocols.swift; sourceTree = "<group>"; };
+		59DF05870F31CAB480E7E3C9 /* Pods-Portofolio-iOS-ViperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Portofolio-iOS-ViperTests.debug.xcconfig"; path = "Target Support Files/Pods-Portofolio-iOS-ViperTests/Pods-Portofolio-iOS-ViperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3543B4DE6DA310E48F4CC7A /* Pods_Portofolio_iOS_Viper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Portofolio_iOS_Viper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1890B2F055BBFC34D217BC /* Pods-Portofolio-iOS-Viper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Portofolio-iOS-Viper.release.xcconfig"; path = "Target Support Files/Pods-Portofolio-iOS-Viper/Pods-Portofolio-iOS-Viper.release.xcconfig"; sourceTree = "<group>"; };
+		D4F9572F0AF426879D8CAE59 /* Pods-Portofolio-iOS-Viper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Portofolio-iOS-Viper.debug.xcconfig"; path = "Target Support Files/Pods-Portofolio-iOS-Viper/Pods-Portofolio-iOS-Viper.debug.xcconfig"; sourceTree = "<group>"; };
+		F2270E57E39982F743D38248 /* Pods_Portofolio_iOS_ViperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Portofolio_iOS_ViperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E59CF6E9F4577A4AEA4C26 /* Pods_Portofolio_iOS_Viper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90E079BE873A3479B9FE80D /* Pods_Portofolio_iOS_ViperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FA94A840683B271FDC178DF /* Pods_Portofolio_iOS_Viper_Portofolio_iOS_ViperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +138,8 @@
 				49BD7AD82AD2AAFE00C89001 /* Portofolio-iOS-ViperTests */,
 				49BD7AE22AD2AAFF00C89001 /* Portofolio-iOS-ViperUITests */,
 				49BD7AC02AD2AAFC00C89001 /* Products */,
+				EF682481BB1A16B7DEA5C1D2 /* Pods */,
+				B7C09B2EB08B71ADA2EDC3A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +156,10 @@
 		49BD7AC12AD2AAFC00C89001 /* Portofolio-iOS-Viper */ = {
 			isa = PBXGroup;
 			children = (
-				49BD7AC22AD2AAFC00C89001 /* AppDelegate.swift */,
-				49BD7AC42AD2AAFC00C89001 /* SceneDelegate.swift */,
-				49BD7AC62AD2AAFC00C89001 /* ViewController.swift */,
-				49BD7AC82AD2AAFC00C89001 /* Main.storyboard */,
+				49BD7B192AD2B1EE00C89001 /* Utilites */,
+				49BD7AF32AD2AD3600C89001 /* Modules */,
+				49BD7AF22AD2AB6400C89001 /* SupportingFiles */,
 				49BD7ACB2AD2AAFE00C89001 /* Assets.xcassets */,
-				49BD7ACD2AD2AAFE00C89001 /* LaunchScreen.storyboard */,
 				49BD7AD02AD2AAFE00C89001 /* Info.plist */,
 			);
 			path = "Portofolio-iOS-Viper";
@@ -127,6 +182,123 @@
 			path = "Portofolio-iOS-ViperUITests";
 			sourceTree = "<group>";
 		};
+		49BD7AF22AD2AB6400C89001 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				49BD7AC22AD2AAFC00C89001 /* AppDelegate.swift */,
+				49BD7AC42AD2AAFC00C89001 /* SceneDelegate.swift */,
+				49BD7AC62AD2AAFC00C89001 /* ViewController.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		49BD7AF32AD2AD3600C89001 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				49BD7B1E2AD2B3A100C89001 /* LineChart */,
+				49BD7B0A2AD2AF8500C89001 /* DonuChartDetails */,
+				49BD7AF92AD2ADC400C89001 /* DonutChart */,
+				49BD7AF42AD2AD3C00C89001 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		49BD7AF42AD2AD3C00C89001 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				49BD7AF52AD2AD6300C89001 /* TabBarController.swift */,
+				49BD7AF72AD2AD8600C89001 /* CustomUINavigationViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		49BD7AF92AD2ADC400C89001 /* DonutChart */ = {
+			isa = PBXGroup;
+			children = (
+				49BD7AFA2AD2ADD100C89001 /* DonutChartViewController.swift */,
+				49BD7AFE2AD2AE4300C89001 /* DonuChartPresenter.swift */,
+				49BD7AFC2AD2AE2800C89001 /* DonuChartIntractor.swift */,
+				49BD7B002AD2AE7700C89001 /* DonuChartEntity.swift */,
+				49BD7B022AD2AE9A00C89001 /* Chart.json */,
+				49BD7B062AD2AF1200C89001 /* DonuChartRouter.swift */,
+				49BD7B082AD2AF4700C89001 /* DonuChartProtocol.swift */,
+			);
+			path = DonutChart;
+			sourceTree = "<group>";
+		};
+		49BD7B0A2AD2AF8500C89001 /* DonuChartDetails */ = {
+			isa = PBXGroup;
+			children = (
+				49BD7B0D2AD2B04000C89001 /* View */,
+				49BD7B112AD2B09000C89001 /* DonuChartDetailIntractor.swift */,
+				49BD7B132AD2B0A900C89001 /* DonuChartDetailsPresenter.swift */,
+				49BD7B152AD2B0EC00C89001 /* DonuChartDetailsRouters.swift */,
+				49BD7B172AD2B11300C89001 /* DonuChartDetailsProtocols.swift */,
+			);
+			path = DonuChartDetails;
+			sourceTree = "<group>";
+		};
+		49BD7B0D2AD2B04000C89001 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49BD7B0B2AD2AF9600C89001 /* DonuChartDetailViewController.swift */,
+				49BD7B0E2AD2B04A00C89001 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49BD7B0E2AD2B04A00C89001 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				49BD7B0F2AD2B06600C89001 /* DonuChartDetailsCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		49BD7B192AD2B1EE00C89001 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				49BD7B1A2AD2B21700C89001 /* DateFormatEnum.swift */,
+				49BD7B1C2AD2B22800C89001 /* String+EXT.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		49BD7B1E2AD2B3A100C89001 /* LineChart */ = {
+			isa = PBXGroup;
+			children = (
+				49BD7B1F2AD2B3B900C89001 /* LineChartViewController.swift */,
+				49BD7B212AD2B42800C89001 /* LineChartIntractor.swift */,
+				49BD7B232AD2B44A00C89001 /* LineChartPresenter.swift */,
+				49BD7B252AD2B45F00C89001 /* LineChartRouter.swift */,
+				49BD7B272AD2B47D00C89001 /* LineChartProtocols.swift */,
+			);
+			path = LineChart;
+			sourceTree = "<group>";
+		};
+		B7C09B2EB08B71ADA2EDC3A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3543B4DE6DA310E48F4CC7A /* Pods_Portofolio_iOS_Viper.framework */,
+				3411EF83C0769A1ED924669F /* Pods_Portofolio_iOS_Viper_Portofolio_iOS_ViperUITests.framework */,
+				F2270E57E39982F743D38248 /* Pods_Portofolio_iOS_ViperTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF682481BB1A16B7DEA5C1D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4F9572F0AF426879D8CAE59 /* Pods-Portofolio-iOS-Viper.debug.xcconfig */,
+				CE1890B2F055BBFC34D217BC /* Pods-Portofolio-iOS-Viper.release.xcconfig */,
+				3AFE3CB3EC3A445C5178834B /* Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests.debug.xcconfig */,
+				07322785811A2298303D514E /* Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests.release.xcconfig */,
+				59DF05870F31CAB480E7E3C9 /* Pods-Portofolio-iOS-ViperTests.debug.xcconfig */,
+				21F70EC3E37AB8C32B70526E /* Pods-Portofolio-iOS-ViperTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +306,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49BD7AE92AD2AAFF00C89001 /* Build configuration list for PBXNativeTarget "Portofolio-iOS-Viper" */;
 			buildPhases = (
+				D6ACCD5B8114EF45783985C2 /* [CP] Check Pods Manifest.lock */,
 				49BD7ABB2AD2AAFC00C89001 /* Sources */,
 				49BD7ABC2AD2AAFC00C89001 /* Frameworks */,
 				49BD7ABD2AD2AAFC00C89001 /* Resources */,
+				9F748B98340DCA7A496AE52F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +325,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49BD7AEC2AD2AAFF00C89001 /* Build configuration list for PBXNativeTarget "Portofolio-iOS-ViperTests" */;
 			buildPhases = (
+				CD79DC582DF10E7304C6B112 /* [CP] Check Pods Manifest.lock */,
 				49BD7AD12AD2AAFE00C89001 /* Sources */,
 				49BD7AD22AD2AAFE00C89001 /* Frameworks */,
 				49BD7AD32AD2AAFE00C89001 /* Resources */,
@@ -169,9 +344,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49BD7AEF2AD2AAFF00C89001 /* Build configuration list for PBXNativeTarget "Portofolio-iOS-ViperUITests" */;
 			buildPhases = (
+				9B5D3E443B6349A1F4F5C7A9 /* [CP] Check Pods Manifest.lock */,
 				49BD7ADB2AD2AAFF00C89001 /* Sources */,
 				49BD7ADC2AD2AAFF00C89001 /* Frameworks */,
 				49BD7ADD2AD2AAFF00C89001 /* Resources */,
+				82C0B57BA3AF61EEC73CAFA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +408,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49BD7ACF2AD2AAFE00C89001 /* LaunchScreen.storyboard in Resources */,
+				49BD7B032AD2AE9A00C89001 /* Chart.json in Resources */,
 				49BD7ACC2AD2AAFE00C89001 /* Assets.xcassets in Resources */,
-				49BD7ACA2AD2AAFC00C89001 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +429,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82C0B57BA3AF61EEC73CAFA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests/Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests/Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests/Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B5D3E443B6349A1F4F5C7A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F748B98340DCA7A496AE52F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Portofolio-iOS-Viper/Pods-Portofolio-iOS-Viper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Portofolio-iOS-Viper/Pods-Portofolio-iOS-Viper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Portofolio-iOS-Viper/Pods-Portofolio-iOS-Viper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD79DC582DF10E7304C6B112 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Portofolio-iOS-ViperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6ACCD5B8114EF45783985C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Portofolio-iOS-Viper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49BD7ABB2AD2AAFC00C89001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BD7B262AD2B45F00C89001 /* LineChartRouter.swift in Sources */,
+				49BD7B012AD2AE7700C89001 /* DonuChartEntity.swift in Sources */,
+				49BD7AFD2AD2AE2800C89001 /* DonuChartIntractor.swift in Sources */,
+				49BD7B102AD2B06600C89001 /* DonuChartDetailsCell.swift in Sources */,
+				49BD7AFB2AD2ADD100C89001 /* DonutChartViewController.swift in Sources */,
+				49BD7B222AD2B42800C89001 /* LineChartIntractor.swift in Sources */,
+				49BD7B142AD2B0A900C89001 /* DonuChartDetailsPresenter.swift in Sources */,
+				49BD7B1B2AD2B21700C89001 /* DateFormatEnum.swift in Sources */,
 				49BD7AC72AD2AAFC00C89001 /* ViewController.swift in Sources */,
+				49BD7AFF2AD2AE4300C89001 /* DonuChartPresenter.swift in Sources */,
+				49BD7B282AD2B47D00C89001 /* LineChartProtocols.swift in Sources */,
+				49BD7B242AD2B44A00C89001 /* LineChartPresenter.swift in Sources */,
+				49BD7AF82AD2AD8600C89001 /* CustomUINavigationViewController.swift in Sources */,
+				49BD7B202AD2B3B900C89001 /* LineChartViewController.swift in Sources */,
+				49BD7B092AD2AF4700C89001 /* DonuChartProtocol.swift in Sources */,
+				49BD7AF62AD2AD6300C89001 /* TabBarController.swift in Sources */,
+				49BD7B162AD2B0EC00C89001 /* DonuChartDetailsRouters.swift in Sources */,
+				49BD7B0C2AD2AF9600C89001 /* DonuChartDetailViewController.swift in Sources */,
+				49BD7B182AD2B11300C89001 /* DonuChartDetailsProtocols.swift in Sources */,
 				49BD7AC32AD2AAFC00C89001 /* AppDelegate.swift in Sources */,
 				49BD7AC52AD2AAFC00C89001 /* SceneDelegate.swift in Sources */,
+				49BD7B122AD2B09000C89001 /* DonuChartDetailIntractor.swift in Sources */,
+				49BD7B1D2AD2B22800C89001 /* String+EXT.swift in Sources */,
+				49BD7B072AD2AF1200C89001 /* DonuChartRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +595,6 @@
 			targetProxy = 49BD7AE02AD2AAFF00C89001 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		49BD7AC82AD2AAFC00C89001 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				49BD7AC92AD2AAFC00C89001 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		49BD7ACD2AD2AAFE00C89001 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				49BD7ACE2AD2AAFE00C89001 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		49BD7AE72AD2AAFF00C89001 /* Debug */ = {
@@ -432,6 +713,7 @@
 		};
 		49BD7AEA2AD2AAFF00C89001 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F9572F0AF426879D8CAE59 /* Pods-Portofolio-iOS-Viper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,7 +723,6 @@
 				INFOPLIST_FILE = "Portofolio-iOS-Viper/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,6 +740,7 @@
 		};
 		49BD7AEB2AD2AAFF00C89001 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE1890B2F055BBFC34D217BC /* Pods-Portofolio-iOS-Viper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,7 +750,6 @@
 				INFOPLIST_FILE = "Portofolio-iOS-Viper/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,6 +767,7 @@
 		};
 		49BD7AED2AD2AAFF00C89001 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59DF05870F31CAB480E7E3C9 /* Pods-Portofolio-iOS-ViperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +787,7 @@
 		};
 		49BD7AEE2AD2AAFF00C89001 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21F70EC3E37AB8C32B70526E /* Pods-Portofolio-iOS-ViperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +807,7 @@
 		};
 		49BD7AF02AD2AAFF00C89001 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AFE3CB3EC3A445C5178834B /* Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +825,7 @@
 		};
 		49BD7AF12AD2AAFF00C89001 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07322785811A2298303D514E /* Pods-Portofolio-iOS-Viper-Portofolio-iOS-ViperUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
